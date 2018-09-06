@@ -1,6 +1,6 @@
-#Software Manual
+## Software Manual
 
-*Basic*
+**Basic**
 
-1 [smaceps]{link}
+1 [smaceps](link)
 
