@@ -1,4 +1,4 @@
-	#*Software Manual*
+#Software Manual
 
 *Basic*
 
