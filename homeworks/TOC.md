@@ -4,7 +4,7 @@
 
 1. [Problem One](https://github.com/warrenm1/math4610/blob/master/homworks/Homework1/precision/maceps.cpp) smaceps
 
-2. [Problem Two](link) Creating Repository and creating Software Manual Entries
+2. [Problem Two](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/maceps.md) Creating Repository and creating Software Manual Entries
 
 3. [Problem Three](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework1/hw1_prob3) Archiving your Library
 
