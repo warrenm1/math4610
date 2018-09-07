@@ -8,7 +8,7 @@
 
 3. [Problem Three](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework1/hw1_prob3) Archiving your Library
 
-4. [Problem Four](link) OpenMP to learn a bit about your computer and how many processes can run on the cores
+4. [Problem Four](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework1/OpenMP) OpenMP to learn a bit about your computer and how many processes can run on the cores
 
 5. [Problem Five](link) Taylor Series Expansions
 
