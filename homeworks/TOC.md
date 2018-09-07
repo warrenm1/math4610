@@ -6,7 +6,7 @@
 
 2. [Problem Two](link) Creating Repository and creating Software Manual Entries
 
-3. [Problem Three](link) Archiving your Library
+3. [Problem Three](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework1/hw1_prob3) Archiving your Library
 
 4. [Problem Four](link) OpenMP to learn a bit about your computer and how many processes can run on the cores
 
