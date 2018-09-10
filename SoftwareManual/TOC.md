@@ -2,7 +2,7 @@
 
 **Basic**
 
-1. [smaceps](link)
+1. [Machine Epsilon](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/maceps.md)
 
 
 **Root Finding**
