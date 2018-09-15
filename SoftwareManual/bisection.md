@@ -62,20 +62,20 @@ Then, it will use the Bisection method to produce an output.
 	        if (f_a*f_b > zero){
 	                std::cout << "Unable to determine a root from the endpoints given. " << std::endl << "Please pick two values on f(x) that reside on opposite sides of the x-axis." << std::endl << std::endl << "Thank you. Now exiting...";
 	                return EXIT_FAILURE;
-	        }
+	        }//if endpoints are on the same side of the x-axis
 		
 	        else if (f_a*f_b == zero){
 	                if (f_a == zero)
 	                        return a;
 	                else
 	                        return b;
-	        }
+	        }//if an endpoint is the root
 	
 	        if (tol <= 0){
 	                std::cout << "Unable to process a tolerance of " << tol << std::endl << "Please make sure it is > 0" << std::endl << "Now exiting...";
 	
 	                return EXIT_FAILURE;
-	        }
+	        }//if the tolerance is out of scope
 	
 	
 	
@@ -91,15 +91,15 @@ Then, it will use the Bisection method to produce an output.
 			if ((f_a*f_c) < 0){
 				b = c;
 				f_b = f_c;
-			}
+			}//root on the left of center
 			else{
 				a = c;
 				f_a = f_c;
-			}
-		}
+			}//root on the right of center
+		}//for loop implementing Bisection
 	
 		root = c;
 		return root;
-	}	
+	}//Bisection Function
 	
 **Last Modified:** September/2018
