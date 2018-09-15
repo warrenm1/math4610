@@ -1,4 +1,5 @@
-## Root Finder
+## Quadratic Formula
+ 
 This is a  file for the purpose of finding the two roots in a quadratic formula.
 
 **Routine Name:**           rootFinder
