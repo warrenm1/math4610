@@ -1,7 +1,7 @@
 # Bisection Method 
 This is a file for the purpose of finding a single root given two endpoints on a function that are on opposite sides of the x-axis, using the Bisection Method.
 
-**Routine Name:**           bisection(double\*, double, double, double)
+**Routine Name:**           bisection
 
 **Author:** Michael A. Warren
 
