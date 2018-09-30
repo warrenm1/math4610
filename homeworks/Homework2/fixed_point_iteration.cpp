@@ -1,8 +1,8 @@
 #include<iostream>
 
-int main()
+double fixed_pt_iter()
 {
 	
 	
-	return 0;
+	return x_r;
 }

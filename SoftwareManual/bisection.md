@@ -38,9 +38,7 @@ Then, it will use the Bisection method to produce an output.
 
 **Usage/Example:**
 
-<basic example>
-<give the output of the exampled input, if needed>
-<how to interpret the output>
+The best way to use this is if and only if both ends of the interval are on opposite sides of the x-axis. This is also a great way to narrow the search down to closer to the root, especially if you are getting the function to the point where a Newton or Secant method can be used...see Hybrid Methods.
 
 **Implementation/Code:** The following is the code for bisection(double\*, double, double, double)
 

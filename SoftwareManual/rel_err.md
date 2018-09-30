@@ -26,9 +26,7 @@ better
 
 **Usage/Example:**
 
-<basic example>
-<give the output of the exampled input, if needed>
-<how to interpret the output>
+This routine is to be used when you want to see how the error affects the function as a whole.
 
 **Implementation/Code:** The following is the code for rel_error(double x, double y).
 

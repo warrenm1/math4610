@@ -26,9 +26,7 @@ better
 
 **Usage/Example:**
 
-<basic example>
-<give the output of the exampled input, if needed>
-<how to interpret the output>
+This routine is to be used often to find out how precise your result is to the actual result and compare that to the level of tolerance.
 
 **Implementation/Code:** The following is the code for abs_error(double x, double y).
 
