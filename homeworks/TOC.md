@@ -33,8 +33,10 @@
 3. [Problem Three](link): Modifying problem 2's formula to accomidate machine precision *...not finished yet...*
 
 **N.B.** problems 4-9
-a. Problem number link --> application of the two equations
-b. Method link --> Software Manual
+
+(a) Problem number link --> application of the two equations
+
+(b) Method link --> Software Manual
 
 4. [Problem Four](link): [Fixed Point Iteration](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/fixed_point_iteration.md)  *...not finished yet...*
 
