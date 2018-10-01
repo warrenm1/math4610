@@ -70,7 +70,10 @@ double func_b(double x){
 
 
 int main(){
-		
+
+	std::cout << "a) " << bisection(&func_a, 1, 4, 0.005) << std::endl;
+	std::cout << "b) " << bisection(&func_b, 0.001, 3, 0.005) << std::endl;
+	
 
 	return 0;
 }

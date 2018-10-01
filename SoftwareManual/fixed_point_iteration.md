@@ -18,15 +18,13 @@ better
 
 **Description/Purpose:** Using a fixed point to approximate the roots of a given function. This routine takes the a given function and evaluates it in relation to a modified version of that function in order to get the roots.
 
-**Input:** <any inputs needed to make it work>
+**Input:** 
 
-**Output:** <what, if anything, comes out of the routine>
+**Output:** 
 
 **Usage/Example:**
 
-<basic example>
-<give the output of the exampled input, if needed>
-<how to interpret the output>
+
 
 **Implementation/Code:** The following is the code for fixed_pt_iter()
 

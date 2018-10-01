@@ -1,6 +1,8 @@
 #include<iosteam>
+#include<cmath>
+#include<cstdlib>
 
-double hybrid_s(double a, double b, (*f)(x), double tol, int maxiter){
+double hybrid_s(double a, double b, double (*f)(x), double tol, int maxiter){
 	int iter = 0;
 	double c = (a+b) / 2;
 	double x_2;
@@ -38,4 +40,23 @@ double hybrid_s(double a, double b, (*f)(x), double tol, int maxiter){
 	}
 
 	return x_2;
+}
+
+double func_a(double x){
+        return (pow(x,2) - 3);
+}
+
+double func_b(double x){
+        long double PI = 3.14159265358979323846264338327950288419716939937510;
+        return (sin(PI*x));
+}
+
+
+int main(){
+
+        std::cout << "a) " << bisection(1, 4, &func_a, 0.005, 15) << std::endl;
+        std::cout << "b) " << bisection(0, 3, &func_b, 0.005, 15) << std::endl;
+
+
+        return 0;
 }

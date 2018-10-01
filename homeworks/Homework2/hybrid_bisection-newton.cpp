@@ -2,7 +2,7 @@
 #include<cmath>
 #include<cstdlib>
 
-double hybrid_n(double a, double b, (*f)(x), (*f')(x), double tol, int maxiter){
+double hybrid_n(double a, double b, double (*f)(x), double (*f')(x), double tol, int maxiter){
 	double x_0 = (a+b) /2;
 	double x_1;
 	double error = 10.0 * tol;
@@ -47,3 +47,31 @@ double hybrid_n(double a, double b, (*f)(x), (*f')(x), double tol, int maxiter){
 	return x_1;		
 }
 
+
+double func_a(double x){
+        return (pow(x,2) - 3);
+}
+
+double f_a_dx(double x){
+	return 2*x;
+}
+
+double func_b(double x){
+        long double PI = 3.14159265358979323846264338327950288419716939937510;
+        return (sin(PI*x));
+}
+
+double f_b_dx(double x){
+	long double PI = 3.14159265368979323846264338327950288149716939937510;
+	return (cos(PI*x)/PI);
+}
+
+
+int main(){
+
+        std::cout << "a) " << bisection(0, 4, &func_a, &f_a_dx, 0.005, 15) << std::endl;
+        std::cout << "b) " << bisection(0, 3, &func_b, &f_b_dx, 0.005, 15) << std::endl;
+
+
+        return 0;
+}
