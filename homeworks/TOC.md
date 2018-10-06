@@ -56,56 +56,56 @@
 
 **Homework Three**
 
-1. [Problem One](link) description
+1. [Problem One](link): Computing and returning l_1, l_2, l_infin norm lengths ...not finished yet...
 
-2. [Problem Two](link) description
+2. [Problem Two](link): Compute abs and rel errors of two vectors, one "exact" and one approximate ...not finished yet...
 
-3. [Problem Three](link) description
+3. [Problem Three](link): Vector Operations ...not finished yet...
 
-4. [Problem Four](link) description
+4. [Problem Four](link): Compute Frobenius, l_1, and l_infin norms of a matrix ...not finished yet...
 
-5. [Problem Five](link) description
+5. [Problem Five](link): Matrix Operations ...not finished yet...
 
-6. [Problem Six](link) description
+6. [Problem Six](link): Additional Matrix Operations ...not finished yet...
 
-7. [Problem Seven](link) description
+7. [Problem Seven](link): Using Parallel/concurrent computing to perform Matrix Operations ...not finished yet...
 
-8. [Problem Eight](link) description
+8. [Problem Eight](link): More Vector Operations ...not finished yet...
 
-9. [Problem Nine](link) description
+9. [Problem Nine](link): Determining an Orthogonal Basis from a General Basis in R^2 ...not finished yet...
 
-10. [Problem Ten](link) description
+10. [Problem Ten](link): Online Serch - Kronecker Product ...not finished yet...
 
 
 
 **Homework Four**
 
-1. [Problem One](link) description
+1. [Problem One](link): description
 
-2. [Problem Two](link) description
+2. [Problem Two](link): description
 
-3. [Problem Three](link) description
+3. [Problem Three](link): description
 
-4. [Problem Four](link) description
+4. [Problem Four](link): description
 
-5. [Problem Five](link) description
+5. [Problem Five](link): description
 
-6. [Problem Six](link) description
+6. [Problem Six](link): description
 
-7. [Problem Seven](link) description
+7. [Problem Seven](link): description
 
-8. [Problem Eight](link) description
+8. [Problem Eight](link): description
 
-9. [Problem Nine](link) description
+9. [Problem Nine](link): description
 
-10. [Problem Ten](link) description
+10. [Problem Ten](link): description
 
-11. [Problem Eleven](link) description
+11. [Problem Eleven](link): description
 
 
 
 **Homework Five**
 
-1. [Problem One](link) description
+1. [Problem One](link): description
 
-2. [Problem Two](link) description
+2. [Problem Two](link): description
