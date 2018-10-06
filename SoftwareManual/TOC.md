@@ -23,3 +23,15 @@
 6. [Hybrid-Bisection/Newton's Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/hybrid_n.md)
 
 7. [Hybrid-Bisection/Secant Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/hybrid_s.md)
+
+
+**Vector Operations**
+1. [Addition](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/vector_addition.md)
+
+2. [Subtraction](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/vector_subtraction.md)
+
+3. [Scalar Multiplication](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/vector_scalar_multiplication.md)
+
+4. [Dot Product](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/vector_inner_product.md)
+
+5. [Cross Product](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/vector_inner_product.md)
