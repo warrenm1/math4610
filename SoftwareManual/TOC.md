@@ -35,3 +35,9 @@
 4. [Dot Product](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/vector_inner_product.md)
 
 5. [Cross Product](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/vector_inner_product.md)
+
+
+**Matrix Operations**
+1. []()
+
+
