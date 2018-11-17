@@ -5,22 +5,19 @@ This file is to help you add code to calculate the relative error between a mach
 
 **Author:** Michael A. Warren
 
-**Language:** C++. This code can be used using a GNU C++ compiler (gcc)
+**Language:** Python. This code can be used using a Python compiler
 
 For example,
 
-    gcc rel_error.cpp
+    python rel_error.py
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
-
-    gcc -o rel_err rel_error.cpp
+will execute the file.
 
 **Description/Purpose:** This routine is designed to calculate the relative error between a machine precision number and an "exact" value.
 
 **Input:** Only two inputs are required for this routine, the machine precision number and the "exact" value, represented as x and y respectively.
 	
-	double rel_error(double x, double y);
+	rel_error(x, y);
 
 **Output:** The routine returns the relative error from these two values given.
 
@@ -28,24 +25,19 @@ better
 
 This routine is to be used when you want to see how the error affects the function as a whole.
 
-**Implementation/Code:** The following is the code for rel_error(double x, double y).
+	print(f"Relative error between 0.0000012345 and 0.0000023456 is {rel_error(0.0000012345,0.0000023456)}"
+Results in the output of:
+	Relative error between 0.0000012345 and 0.0000023456 is 0.9000405022276226
 
-	#include<iostream>
-	#include<cmath>
-	#include<cstdlib>
+**Implementation/Code:** The following is the code for rel_error(x, y).
+	
+	import sys
 
-	double rel_error(double x, double y){
-		double zero = 0.0;
-		
-		//base case
-		if (x == zero){
-			std::cout << "the machine precision number cannot be zero" << std::endl << "Now exiting...";
+	def rel_error(x,y):
+		if x == 0.0:
+			print("The machine precision number cannot be zero")
+			sys.exit(1)	
 			
-			return EXIT_FAILURE;
-		}//if dividing by zero
+		return abs(x - y) / x;
 
-		return (abs(x - y) / x);
-	}//rel_error
-
-
-**Last Modified:** September/2018
+**Last Modified:** November/2018

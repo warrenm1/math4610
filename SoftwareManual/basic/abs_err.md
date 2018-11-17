@@ -5,22 +5,19 @@ This file is to add a bit of routine to your code to calculate the Absolute Erro
 
 **Author:** Michael A. Warren
 
-**Language:** C++. This code can be used using a GNU C++ compiler (gcc)
+**Language:** Python. This code can be used using a Python compiler
 
 For example,
 
-    gcc abs_error.cpp
+    python abs_error.py
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
-
-    gcc -o abs_err abs_error.cpp
+will execute the file.
 
 **Description/Purpose:** This routine is to compute the absolute error between a machine precision number and the "exact" value.
 
 **Input:** This routine takes two inputs, the machine precision number, and the "exact" value.
 
-	double abs_error(double x, double y);
+	abs_error(x, y);
 
 **Output:** This routine will output a single value of type double that represents the absolute error.
 
@@ -28,14 +25,14 @@ better
 
 This routine is to be used often to find out how precise your result is to the actual result and compare that to the level of tolerance.
 
-**Implementation/Code:** The following is the code for abs_error(double x, double y).
+	print(f"Absolute error between 0.0000012345 and 0.0000023456 = {abs_error(0.0000012345,0.0000023456)}"
 
-	#include<cmath>
-	#include<cstdlib>
+Results in:
+	Absolute error between 0.0000012345 and 0.0000023456 = 1.1111e-06
 
-	double abs_error(double x, double y){
-		return abs(x - y);
-	}
+**Implementation/Code:** The following is the code for abs_error(x, y).
 
+	def abs_error(x,y):
+		return abs(x-y)
 
-**Last Modified:** September/2018
+**Last Modified:** November/2018
