@@ -11,7 +11,7 @@
 
 5. [Problem Five](link): Taylor Series Expansions *...not finished yet...*
 
-6. [Problem Six](link): Antiderivatives *...not finished yet...*
+6. [Problem Six](): Antiderivatives 
 
 7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/rootFinder/rootFinder.cpp): Root Finder using the [Quadradic Formula](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/quadratic_formula.md)
 
