@@ -1,8 +1,7 @@
-## My Homeworks
-
+## My Homework
 **[Homework One](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework1)**
 
-1. [Problem One](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/precision/maceps.cpp): smaceps
+1. [Problem One](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/precision/maceps.cpp): [smaceps](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/basic/maceps.md)
 
 2. [Problem Two](https://github.com/warrenm1/math4610/blob/master/README.md): Creating Repository and creating Software Manual Entries
 
@@ -14,7 +13,7 @@
 
 6. [Problem Six](link): Antiderivatives *...not finished yet...*
 
-7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/rootFinder/rootFinder.cpp): Root Finder using the Quadradic Formula
+7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/rootFinder/rootFinder.cpp): Root Finder using the [Quadradic Formula](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/quadratic_formula.md)
 
 8. [Problem Eight](link): Simple Initial Value Problems *...not finished yet...*
 
@@ -26,7 +25,7 @@
 
 **[Homework Two](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework2)**
 
-1. Problem One: use of [relative error](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/rel_error.cpp) and [absolute error](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/abs_error.cpp)
+1. Problem One: use of [relative error](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/rel_error.cpp) and [absolute error](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/abs_error.cpp) (software manual for [rel error](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/basic/rel_err.md) and [abs error](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/basic/abs_err.md))
 
 2. [Problem Two](link): determining derivatives with infinite precision using the definition *...not finished yet...*
 
@@ -106,6 +105,40 @@
 
 **[Homework Five]()**
 
-1. [Problem one](link): description
+1. [Problem One](link): description
 
-2. [Problem two](link): description
+2. [Problem Two](link): description
+
+3. [Problem Three](): description
+
+4. [Problem Four](): description
+
+5. [Problem Five](): description
+
+6. [Problem Six](): description
+
+7. [Problem Seven](): description
+
+8. [Problem Eight](): description
+
+9. [Problem Nine](): description
+
+10. [Problem Ten](): description
+
+
+
+**[Homework 6]()**
+
+1. [Problem One](): description
+
+2. [Problem Two](): description
+
+3. [Problem Three](): description
+
+4. [Problem Four](): description
+
+5. [Problem Five](): description
+
+6. [Problem Six](): description
+
+7. [Problem Seven](): description
