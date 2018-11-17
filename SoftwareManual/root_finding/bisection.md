@@ -5,30 +5,21 @@ This is a file for the purpose of finding a single root given two endpoints on a
 
 **Author:** Michael A. Warren
 
-**Language:** c++. This code can be used using the GNU C++ compiler (gcc)
+**Language:** Python. This code can be used using the Python compiler
 
 For example,
 
-    gcc bisection.cpp
+    python bisection.py
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
-
-    gcc -o bisection bisection.cpp
+will execute the file
 
 **Description/Purpose:** This method will only produce a single root between a given continuous interval. 
 
-**Input:** This routine takes a function, and three double variables. Remember to pass the function by reference,
+**Input:** This routine takes a function, and three double variables, which represent the left-most interval, the right-most interval, the level of tolerance.
 
-	int main(){
-		foo(&coolFunc);
-	}
+	bisection(function, a, b, tol);
 
-The order requested is the function, the left-most interval, the right-most interval, the level of tolerance.
-
-	double bisection(double (*f)(x), double a, double b, double tol);
-
-**Output:** This routine uses the bisection method and returns a single root in the form of a double. 
+**Output:** This routine uses the bisection method and returns a single root. 
 
 It will check to see if both intervals are on opposite sides of the x-axis, for it will not work otherwise, even if there are at least two roots there.
 
@@ -38,66 +29,63 @@ Then, it will use the Bisection method to produce an output.
 
 **Usage/Example:**
 
-The best way to use this is if and only if both ends of the interval are on opposite sides of the x-axis. This is also a great way to narrow the search down to closer to the root, especially if you are getting the function to the point where a Newton or Secant method can be used...see Hybrid Methods.
+N.B. The best way to use this is if and only if both ends of the interval are on opposite sides of the x-axis. This is also a great way to narrow the search down to closer to the root, especially if you are getting the function to the point where a Newton or Secant method can be used...see Hybrid Method.
 
-**Implementation/Code:** The following is the code for bisection(double\*, double, double, double)
+	import math
 
-	#include<iostream>
-	#include<cmath>
-	#include<cstdlib>
+	def func_a(x):
+		return (pow(x,2) -3
 	
-	
-	double bisection(double (*f)(x), double a, double b, double tol){
-	        double root, zero, c, f_a, f_b, f_c;
-	
-		//initialization
-	        f_a = f(a);
-	        f_b = f(b);
-	
-	        zero = 0.0;
-	
-	        //base case checking
-	        if (f_a*f_b > zero){
-	                std::cout << "Unable to determine a root from the endpoints given. " << std::endl << "Please pick two values on f(x) that reside on opposite sides of the x-axis." << std::endl << std::endl << "Thank you. Now exiting...";
-	                return EXIT_FAILURE;
-	        }//if endpoints are on the same side of the x-axis
-		
-	        else if (f_a*f_b == zero){
-	                if (f_a == zero)
-	                        return a;
-	                else
-	                        return b;
-	        }//if an endpoint is the root
-	
-	        if (tol <= 0){
-	                std::cout << "Unable to process a tolerance of " << tol << std::endl << "Please make sure it is > 0" << std::endl << "Now exiting...";
-	
-	                return EXIT_FAILURE;
-	        }//if the tolerance is out of scope
-	
-	
-	
-		//setting max iterations
-	        double k = ceil((log2(tol / abs(b - a))) / log2(0.5) + 1);
-	
+	def func_b(x):
+		PI = 3.14159265358979323846264338327950288419716939937510
+		return math.sin(PI*x)
 
-		//bisection
-	        for(int i = 0; i<k; i++){
-	                c = 0.5*(b+a);
-	                f_c = f(c);
-			
-			if ((f_a*f_c) < 0){
-				b = c;
-				f_b = f_c;
-			}//root on the left of center
-			else{
-				a = c;
-				f_a = f_c;
-			}//root on the right of center
-		}//for loop implementing Bisection
+
+	print(f"a) {bisection(func_a,1,4,0.005)}")
+	print(f"b) {bisection(func_b,0.001,1.5,0.005)}")
+
+This gives the result:
+	a) 1.73095703125
+	b) 1.0008212890624997
+
+**Implementation/Code:** The following is the code for the Bisection Method
+
+	import sys
+
+	def bisection(function,a,b,tol):
+	    f_a = function(a)
+	    f_b = function(b)
+	    zero = 0.0
+
+	    if tol <= 0:
+	        print(f"Unable to process a tolerance of {tol}")
+	        print("Please make sure tolerance > 0")
+	        sys.exit(1)
+
+	    if f_a*f_b > zero:
+	        print("Unable to determine a root from the given endpoints")
+	        print("Please pick two values on f(x) that reside on opposite sides of the x-axis")
+	        sys.exit(1)
+
+	    elif f_a*f_b == zero:
+	        if f_a == zero:
+	            return a
+	        else:
+	            return b
+
+	    k = math.ceil((math.log(tol/math.fabs(b-a),2)) / math.log(0.5,2) + 1)
 	
-		root = c;
-		return root;
-	}//Bisection Function
+	    for i in range(k):
+	        c = 0.5 * (b+a)
+	        f_c = function(c)
+
+	        if(f_a*f_c) < 0:
+	            b = c
+	            f_b = f_c
+	        else:
+	            a = c
+	            f_a = f_c
+
+	    return c
 	
-**Last Modified:** September/2018
+**Last Modified:** November/2018
