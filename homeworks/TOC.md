@@ -3,23 +3,23 @@
 
 1. [Problem One](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/precision/maceps.cpp): [smaceps](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/basic/maceps.md)
 
-2. [Problem Two](link) Creating Repository and creating Software Manual Entries
+2. Problem Two: Creating Repository and creating [Software Manual Entries](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/TOC.md)
 
-3. [Problem Three](link) Archiving your Library
+3. [Problem Three](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework1/hw1_prob3): Archiving your Library
 
-4. [Problem Four](link) OpenMP to learn a bit about your computer and how many processes can run on the cores
+4. [Problem Four](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/OpenMP/result.md): OpenMP to learn a bit about your computer and how many processes can run on the cores
 
-5. [Problem Five](link) Taylor Series Expansions
+5. [Problem Five](link): Taylor Series Expansions ...Not Finished Yet...
 
-6. [Problem Six](): Antiderivatives 
+6. Problem Six: Antiderivatives; [page 1](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_001659.jpg), [page 2](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_001732.jpg)
 
 7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/rootFinder/rootFinder.cpp): Root Finder using the [Quadradic Formula](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/quadratic_formula.md)
 
-8. [Problem Eight](link) Simple Initial Value Problems
+8. [Problem Eight](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_010052.jpg) Simple Initial Value Problems
 
-9. [Problem Nine](link) Applications influenced by Machine Precision
+9. [Problem Nine](link): Applications influenced by Machine Precision ...Not Finished Yet...
 
-10. [Problem Ten](link) Graphing Differential Equations
+10. [Problem Ten](link): Graphing Differential Equations ...Not Finished Yet...
 
 
 
@@ -37,17 +37,17 @@
 
 (b) Method link --> Software Manual
 
-4. [Problem Four](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/fixed_point_iteration.cpp): [Fixed Point Iteration](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/fixed_point_iteration.md)  *...not finished yet...*
+4. [Problem Four](): [Fixed Point Iteration](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/fixed_point_iteration.md)  *...not finished yet...*
 
-5. [Problem Five](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/bisection.cpp): [Bisection Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/bisection.md)
+5. [Problem Five](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/bisection.py): [Bisection Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/bisection.md)
 
-6. [Problem Six](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/newton.cpp): [Newton's Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/newton.md)
+6. [Problem Six](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/newton.py): [Newton's Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/newton.md)
 
-7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/secant.cpp): [Secant Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/secant.md) 
+7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/secant.py): [Secant Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/secant.md) 
 
-8. [Problem Eight](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/hybrid_bisection-newton.cpp): [Hybrid: Bisection-Newton's Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/hybrid_n.md)
+8. [Problem Eight](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/hybrid_bisec-newton.py): [Hybrid: Bisection-Newton's Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/hybrid_n.md)
 
-9. [Problem Nine](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/hybrid_bisection-secant.cpp): [Hybrid: Bisection-Secant Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/hybrid_s.md) 
+9. [Problem Nine](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/hybrid_bisec-secant.py): [Hybrid: Bisection-Secant Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/hybrid_s.md) 
 
 10. [Problem Ten](link): References to bracketing of roots of functions of a single real variable. *...not finished yet...*
 
