@@ -9,7 +9,7 @@
 
 4. [Problem Four](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/OpenMP/result.md): OpenMP to learn a bit about your computer and how many processes can run on the cores
 
-5. [Problem Five](link): Taylor Series Expansions ...Not Finished Yet...
+5. Problem Five: Taylor Series Expansions; [page1](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_190200.jpg), [page2](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_190144.jpg), [page3](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_190125.jpg)
 
 6. Problem Six: Antiderivatives; [page 1](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_001659.jpg), [page 2](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_001732.jpg)
 
