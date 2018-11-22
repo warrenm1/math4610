@@ -1,7 +1,7 @@
 ## My Homeworks
 **[Homework One](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework1)**
 
-1. [Problem One](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/precision/maceps.cpp): [smaceps](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/basic/maceps.md)
+1. [Problem One](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/basic/maceps.md): smaceps
 
 2. Problem Two: Creating Repository and creating [Software Manual Entries](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/TOC.md)
 
@@ -13,7 +13,7 @@
 
 6. Problem Six: Antiderivatives; [page 1](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_001659.jpg), [page 2](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_001732.jpg)
 
-7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/rootFinder/rootFinder.cpp): Root Finder using the [Quadradic Formula](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/quadratic_formula.md)
+7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/quadratic_formula.md): Root Finder using the Quadradic Formula
 
 8. [Problem Eight](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework1/WrittenProofs/20181117_010052.jpg) Simple Initial Value Problems
 
@@ -23,31 +23,25 @@
 
 
 
-**Homework Two**
+**[Homework Two](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework2)**
 
-1. Problem One: use of [relative error](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/rel_error.cpp) and [absolute error](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/abs_error.cpp) (software manual for [rel error](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/basic/rel_err.md) and [abs error](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/basic/abs_err.md))
+1. Problem One: use of [relative error](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/basic/rel_err.md) and [absolute error](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/basic/abs_err.md)
 
 2. [Problem Two](link): determining derivatives with infinite precision using the definition *...not finished yet...*
 
 3. [Problem Three](link): Modifying problem 2's formula to accomidate machine precision *...not finished yet...*
 
-**N.B.** problems 4-9
+4. [Problem Four](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/fixed_point_iteration.md): Fixed Point Iteration  *...not finished yet...*
 
-(a) Problem number link --> application of the two equations
+5. [Problem Five](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/bisection.md): Bisection Method
 
-(b) Method link --> Software Manual
+6. [Problem Six](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/newton.md): Newton's Method
 
-4. [Problem Four](): [Fixed Point Iteration](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/fixed_point_iteration.md)  *...not finished yet...*
+7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/secant.md): Secant Method 
 
-5. [Problem Five](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/bisection.py): [Bisection Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/bisection.md)
+8. [Problem Eight](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/hybrid_n.md): Hybrid: Bisection-Newton's Method
 
-6. [Problem Six](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/newton.py): [Newton's Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/newton.md)
-
-7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/secant.py): [Secant Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/secant.md) 
-
-8. [Problem Eight](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/hybrid_bisec-newton.py): [Hybrid: Bisection-Newton's Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/hybrid_n.md)
-
-9. [Problem Nine](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework2/hybrid_bisec-secant.py): [Hybrid: Bisection-Secant Method](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/hybrid_s.md) 
+9. [Problem Nine](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/root_finding/hybrid_s.md): Hybrid: Bisection-Secant Method 
 
 10. [Problem Ten](link): References to bracketing of roots of functions of a single real variable. *...not finished yet...*
 
@@ -59,17 +53,17 @@
 
 2. [Problem Two](link): Compute abs and rel errors of two vectors, one "exact" and one approximate ...not finished yet...
 
-3. [Problem Three](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework3/Vector_Operations): Vector Operations ...not finished yet...
+3. [Problem Three](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/operations/vector_ops): Vector Operations
 
 4. [Problem Four](link): Compute Frobenius, l_1, and l_infin norms of a matrix ...not finished yet...
 
-5. [Problem Five](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework3/Matrix_Operations): Matrix Operations ...not finished yet...
+5. [Problem Five](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/operations/matrix_ops): Matrix Operations
 
 6. [Problem Six](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework3/Matrix_Operations): Additional Matrix Operations ...not finished yet...
 
 7. [Problem Seven](link): Using Parallel/concurrent computing to perform Matrix Operations ...not finished yet...
 
-8. [Problem Eight](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework3/Vector_Operations): More Vector Operations ...not finished yet...
+8. [Problem Eight](link): More Vector Operations ...not finished yet...
 
 9. [Problem Nine](link): Determining an Orthogonal Basis from a General Basis in R^2 ...not finished yet...
 
@@ -127,7 +121,7 @@
 
 
 
-**[Homework 6]()**
+**[Homework Six]()**
 
 1. [Problem One](): description
 
