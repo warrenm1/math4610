@@ -1,20 +1,15 @@
 # Vector Inner Product 
 This routine performs the dot product on two vectors of the same size
 
-**Routine Name:**           vect_inner
+**Routine Name**		v_dot
 
 **Author:** Michael A. Warren
 
-**Language:** C++. This code can be used using a GNU C++ compiler(gcc)
+**Language:** Python. This code can be used using a Python compiler.
 
 For example,
 
-    gcc vect_in_prod.cpp
-
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
-
-    gcc -o vect_inner vect_in_prod.cpp
+    python v_dot.py
 
 **Description/Purpose:** This routine takes two vectors, and multiply the corresponding elements and sums them all together.
 
@@ -24,23 +19,25 @@ better
 
 **Usage/Example:**
 
-<basic example>
-<give the output of the exampled input, if needed>
-<how to interpret the output>
+	v = [10,20,30]
+	u = [10,10,10,10]
 
-**Implementation/Code:** The following is the code for vect_inner()
+	product = v_dot(v,u)
 
-    #include<vector>
-    
-    template<typename T>
-    T vect_inner(std::vector<T> v, std::vector<T> u){
-        T prod = 0;
-    
-        for(int i = 0; i < v.size(); i++)
-            prod += (v[i] * u[i]);
-    
-        return prod;
-    }//vect_inner
+	print(product)
 
+Results in:
 
-**Last Modified:** October/2018
+	600
+
+**Implementation/Code:** The following is the code for v_dot()
+
+	def v_dot(v,u):
+	    prod = 0
+
+	    for i in range(len(v)):
+	        prod += v[i]*u[i]
+
+	    return prod
+
+**Last Modified:** November/2018
