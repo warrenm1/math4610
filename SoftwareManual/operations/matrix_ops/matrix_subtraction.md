@@ -1,47 +1,49 @@
 # Matrix Subtaction 
-This routine calculates and returns the difference between two nXn matrices
+This routine calculates and returns the difference between two matrices
 
-**Routine Name:**           mat_sub
+**Routine Name:**           m_sub
 
 **Author:** Michael A. Warren
 
-**Language:** C++. This code can be used using a GNU C++ compiler(gcc)
+**Language:** Python. This code can be used using a Python compiler.
 
 For example,
 
-    gcc matrix_subtraction.cpp
+    python m_sub.py
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
+**Description/Purpose:** This routine takes two matrices of the same size, calculates the difference between them, and returns the result
 
-    gcc -o mat_sub matrix_subtraction.cpp
+**Input:** This routine takes two matrices of the same numerical data type and same size
 
-**Description/Purpose:** This routine takes two nXn matrices, calculates the difference between them, and returns the result
-
-**Input:** This routine takes two nXn matrices of the same numerical data type
-
-**Output:** This routine returns an nXn matrix of the same numerical data type as those matrices passed in
+**Output:** This routine returns an matrix of the same numerical data type as those matrices passed in
 
 **Usage/Example:**
 
-<basic example>
-<give the output of the exampled input, if needed>
-<how to interpret the output>
+	A = [[1,2,3],[4,5,6],[7,8,9]]
+	B = [[4,5,6],[7,8,9],[1,2,3]]
 
-**Implementation/Code:** The following is the code for mat_sub
+	C = m_sub(A,B)
 
-    #include<vector>
-    
-    template(typename T)
-    std::vector mat_sub(std::vector<T> A[][], std::vector<T> B[][]){
-        std::vector<T> C[][];
-    
-        for(int i = 0; i < A[1].size(); i++)
-            for(int j = 0; j < B.size(); j++)
-                C[i][j] = A[i][j] - B[i][j];
-    
-        return C;
-    }//mat_sub
+	for i in range(len(C)):
+	    print(C[i])
 
+Results in:
 
-**Last Modified:** October/2018
+	[-3, -3, -3]
+	[-3, -3, -3]
+	[6, 6, 6]
+
+**Implementation/Code:** The following is the code for m_sub
+
+	def m_sub(A,B):
+	    C = []
+
+	    for i in range(len(A)):
+	        temp = []
+	        for j in range(len(A[i])):
+	            temp.append(A[i][j] - B[i][j])
+	        C.append(temp)
+
+	    return C
+
+**Last Modified:** November/2018

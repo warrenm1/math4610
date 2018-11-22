@@ -1,47 +1,49 @@
 # Matrix Addition 
 This routine returns the sum of two matrices
 
-**Routine Name:**           mat_add
+**Routine Name:**           m_add
 
 **Author:** Michael A. Warren
 
-**Language:** C++. This code can be used using a GNU C++ compiler(gcc)
+**Language:** Python. This code can be used using a Python compiler.
 
 For example,
 
-    gcc matrix_addition.cpp
-
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
-
-    gcc -o mat_add matrix_addition.cpp
+    python m_add.py
 
 **Description/Purpose:** This routine takes two matrices and adds them together, element by element, and returns the result.
 
-**Input:** This routine takes two nXn matrices of the same size of the same numerical data type
+**Input:** This routine takes two matrices of the same size and of the same numerical data type
 
-**Output:** This routine returns a single nXn matrix of the same numerical data type as those passed in
+**Output:** This routine returns a single matrix of the same numerical data type as those passed in
 
 **Usage/Example:**
 
-<basic example>
-<give the output of the exampled input, if needed>
-<how to interpret the output>
+	A = [[1,2,3],[4,5,6],[7,8,9]]
+	B = [[4,5,6],[7,8,9],[1,2,3]]
 
-**Implementation/Code:** The following is the code for mat_add
+	C = m_add(A,B)
 
-    #include<vector>
-    
-    template(typename T)
-    std::vector mat_add(std::vector<T> A[][], std::vector<T> B[][]){
-        std::vector<T> C[][];
-    
-        for(int i = 0; i < A[1].size(); i++)
-            for(int j = 0; j < B.size(); j++)
-                C[i][j] = A[i][j] + B[i][j];
-    
-        return C;
-    }//mat_add
+	for i in range(len(C)):
+	    print(C[i])
 
+Displays:
 
-**Last Modified:** October/2018
+	[5, 7, 9]
+	[11, 13, 15]
+	[8, 10, 12]
+
+**Implementation/Code:** The following is the code for m_add
+
+	def m_add(A,B):
+	    C = []
+
+	    for i in range(len(A)):
+	        temp = []
+	        for j in range(len(A[i])):
+	            temp.append(A[i][j] + B[i][j])
+	        C.append(temp)
+
+	    return C
+
+**Last Modified:** November/2018

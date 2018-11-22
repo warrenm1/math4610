@@ -1,47 +1,49 @@
 # Matrix Transpose 
-This routine computes and returns the transpose of an nXn matrix
+This routine computes and returns the transpose of a matrix
 
-**Routine Name:**           mat_trans
+**Routine Name:**           m_trans
 
 **Author:** Michael A. Warren
 
-**Language:** C++. This code can be used using a GNU C++ compiler(gcc)
+**Language:** Python. This code can be used using a Python compiler.
 
 For example,
 
-    gcc matrix_transpose.cpp
-
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
-
-    gcc -o mat_trnas matrix_transpose.cpp
+    python m_trans.py
 
 **Description/Purpose:** This routine takes a matrix, transforms it into the transpose, and returns the transpose
 
-**Input:** This routine requires an nXn matrix by reference of a numerical data type
+**Input:** This routine requires a matrix by reference of a numerical data type
 
-**Output:** This routine returns an nXn matrix of a numerical data type that has been made its transpose
+**Output:** This routine returns a matrix of a numerical data type that has been made its transpose
 
 **Usage/Example:**
 
-<basic example>
-<give the output of the exampled input, if needed>
-<how to interpret the output>
+	A = [[1,2,3],[4,5,6],[7,8,9]]
+	
+	C = m_trans(A)
 
-**Implementation/Code:** The following is the code for mat_trans()
+	for i in range(len(C)):
+	    print(C[i])
 
-    #include<vector>
-    
-    template(typename T)
-    std::vector mat_trans(std::vector<T>& A[][]){
-        std::vector<T> At[][];
-    
-        for(int i = 0; i < A[i].size(); i++)
-            for(int j = 0; j < A.size(); j++)
-                At[i][j] = A[j][i];
-    
-        return At;
-    }//mat_trans
+Displays:
 
+	[1, 4, 7]
+	[2, 5, 8]
+	[3, 6, 9]
 
-**Last Modified:** October/2018
+**Implementation/Code:** The following is the code for m_trans()
+
+	def m_trans(A):
+	    At = []
+
+	    for i in range(len(A)):
+	        temp = []
+	        for j in range(len(A[i])):
+	            temp.append(A[j][i])
+
+	        At.append(temp)
+
+	    return At
+
+**Last Modified:** November/2018

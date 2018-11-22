@@ -1,20 +1,15 @@
 # Matrix Scalar Multiplication 
-This routine multiplies a scalar value to each element of an nXn matrix
+This routine multiplies a scalar value to each element of a matrix
 
-**Routine Name:**           mat_scalar
+**Routine Name:**           m_scalar
 
 **Author:** Michael A. Warren
 
-**Language:** C++. This code can be used using a GNU C++ compiler(gcc)
+**Language:** Python. This code can be used using a Python compiler.
 
 For example,
 
-    gcc matrix_scalar_multiplication.cpp
-
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
-
-    gcc -o mat_scalar matrix_scalar_multiplication.cpp
+    python m_scal_mult.py
 
 **Description/Purpose:** This routine takes a matrix and a scalar value and multiplies it through
 
@@ -24,22 +19,27 @@ better
 
 **Usage/Example:**
 
-<basic example>
-<give the output of the exampled input, if needed>
-<how to interpret the output>
+	A = [[1,2,3],[4,5,6],[7,8,9]]
+	s = 24
 
-**Implementation/Code:** The following is the code for mat_scalar()
+	C = m_scal_mult(A,s)
 
-    #include<vector>
-    
-    template(typename T)
-    void mat_scalar(std::vector<T>& A[][], T s){
-        for(int i = 0; i < A[1].size(); i++)
-            for(int j = 0; j < A.size(); j++)
-                A[i][j] *= s;
-    
-        return;
-    }//mat_scalar
+	for i in range(len(C)):
+	    print(C[i])
 
+Displays:
 
-**Last Modified:** October/2018
+	[24, 48, 72]
+	[96, 120, 144]
+	[168, 192, 216]
+
+**Implementation/Code:** The following is the code for m_scal_mult()
+
+	def m_scal_mult(A,s):
+	    for i in range(len(A)):
+	        for j in range(len(A[i])):
+	            A[i][j] = A[i][j] * s
+
+	    return A
+
+**Last Modified:** November/2018

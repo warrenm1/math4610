@@ -1,50 +1,46 @@
 # Matrix - Vector Multiplication 
 Multiplication of a Matrix into a Vector
 
-**Routine Name:**           mat_vect_mult
+**Routine Name:**           m_v_mult
 
 **Author:** Michael A. Warren
 
-**Language:** C++. This code can be used using a GNU C++ compiler(gcc)
+**Language:** Python. This code can be used using a Python compiler.
 
 For example,
 
-    gcc matrix_vector_multiplication.cpp
+    python m_v_mult.py
 
-will produce an executable **./a.exe** than can be executed. If you want a different name, the following will work a bit
-better
+**Description/Purpose:** This routine takes a matrix and a vector, multiplies them together, and returns the resulting vector. Ax = b.
 
-    gcc -o mat_vect_mult matrix_vector_multiplication.cpp
+**Input:** This routine takes a matrix and a vector of a numerical data type, both by reference
 
-**Description/Purpose:** This routine takes an nXn matrix and an n sized vector, multiplies them together, and returns the resulting n sized vector. Ax = b.
-
-**Input:** This routine takes an nXn matrix and an n sized vector of a numerical data type, both by reference
-
-**Output:** This routine returns an n sized vector of the same numerical data type as those passed in
+**Output:** This routine returns a sized vector of the same numerical data type as those passed in
 
 **Usage/Example:**
 
-<basic example>
-<give the output of the exampled input, if needed>
-<how to interpret the output>
+	A = [[1,2,3],[4,5,6],[7,8,9]]
+	x = [10,11,12]
 
-**Implementation/Code:** The following is the code for mat_vect_mult
+	b = m_v_mult(A,x)
 
-    #include<vector>
-    
-    template(typename T)
-    std::vector mat_vect_mult(std::vector<T>& A[][], std::vector<T>& x[]){
-        std::vector<T> b[];
-    
-        for(int i = 0; i < A[0].size(); i++){
-            b[i] = 0;
-    
-            for(int j = 0; j < x.size(); j++)
-                b[i] += (A[i][j] * x[j]);
-        }
-    
-        return b;
-    }//mat_vect_mult
+	print(b)
 
+Displays:
 
-**Last Modified:** October/2018
+	[120, 165, 216]
+
+**Implementation/Code:** The following is the code for m_v_mult
+
+	def m_v_mult(A,x):
+	    b = []
+	    for i in range(len(x)):
+	        b.append(0)
+
+	    for i in range(len(A)):
+	        for j in range(len(x)):
+	            b[j] = b[j] + (A[i][j] * x[j])
+
+	    return b
+
+**Last Modified:** November/2018
