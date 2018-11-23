@@ -62,7 +62,7 @@
 
 5. [Problem Five](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/operations/matrix_ops): Matrix Operations
 
-6. [Problem Six](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework3/Matrix_Operations): Additional Matrix Operations ...not finished yet...
+6. [Problem Siz](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/operations/matrix_ops): Additional Matrix Operations
 
 7. [Problem Seven](link): Using Parallel/concurrent computing to perform Matrix Operations ...not finished yet...
 
