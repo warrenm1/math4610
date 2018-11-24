@@ -58,7 +58,7 @@
 
 3. [Problem Three](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/operations/vector_ops): Vector Operations
 
-4. [Problem Four](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/norms/matrix_norms): Compute Frobenius, l_1, and l_inf norms of a matri
+4. [Problem Four](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/norms/matrix_norms): Compute Frobenius, l_1, and l_inf norms of a matrix
 
 5. [Problem Five](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/operations/matrix_ops): Matrix Operations
 
