@@ -60,6 +60,18 @@
 
 3. [l-infinity](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_norms/linf.md)
 
+4. [Absolute Error l1](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/abs_l1.md)
+
+5. [Relative Error l1](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/rel_l1.md)
+
+6. [Absolute Error l2](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/abs_l2.md)
+
+7. [Relative Error l2](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/rel_l2.md)
+
+8. [Absolute Error l-infinity](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/abs_linf.md)
+
+9. [Relative Error l-infinity](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/rel_linf.md)
+
 **Matrix Norms**
 
 1. [l1](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/matrix_norms/l1.md)

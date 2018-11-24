@@ -54,7 +54,7 @@
 
 1. [Problem One](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/norms/vector_norms): Computing and returning l_1, l_2, l_inf norm length
 
-2. [Problem Two](link): Compute abs and rel errors of two vectors, one "exact" and one approximate ...not finished yet...
+2. [Problem Two](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/norms/vector_errors): Compute abs and rel errors of two vectors, one "exact" and one approximate
 
 3. [Problem Three](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/operations/vector_ops): Vector Operations
 
