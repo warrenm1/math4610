@@ -62,13 +62,13 @@
 
 4. [Absolute Error l1](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/abs_l1.md)
 
-5. [Relative Error l1](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/rel_l1.md)
+5. [Absolute Error l2](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/abs_l2.md)
 
-6. [Absolute Error l2](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/abs_l2.md)
+6. [Absolute Error l-infinity](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/abs_linf.md)
 
-7. [Relative Error l2](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/rel_l2.md)
+7. [Relative Error l1](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/rel_l1.md)
 
-8. [Absolute Error l-infinity](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/abs_linf.md)
+8. [Relative Error l2](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/rel_l2.md)
 
 9. [Relative Error l-infinity](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_errors/rel_linf.md)
 
