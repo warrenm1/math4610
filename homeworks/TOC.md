@@ -52,13 +52,13 @@
 
 **[Homework Three](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework3)**
 
-1. [Problem One](link): Computing and returning l_1, l_2, l_infin norm lengths ...not finished yet...
+1. [Problem One](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/norms/vector_norms): Computing and returning l_1, l_2, l_inf norm length
 
 2. [Problem Two](link): Compute abs and rel errors of two vectors, one "exact" and one approximate ...not finished yet...
 
 3. [Problem Three](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/operations/vector_ops): Vector Operations
 
-4. [Problem Four](link): Compute Frobenius, l_1, and l_infin norms of a matrix ...not finished yet...
+4. [Problem Four](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/norms/matrix_norms): Compute Frobenius, l_1, and l_inf norms of a matri
 
 5. [Problem Five](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/operations/matrix_ops): Matrix Operations
 
