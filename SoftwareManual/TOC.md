@@ -44,4 +44,26 @@
 
 5. [Scalar Multiplication](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/operations/matrix_ops/matrix_scalar_multiplication.md)
 
+6. [Trace](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/operations/matrix_ops/matrix_trace.md)
 
+7. [Matrix Multiplication](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/operations/matrix_ops/matrix_multiplication.md)
+
+8. [Kronecker Product/Outer Product](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/operations/matrix_ops/Kronecker_Product.md)
+
+9. [Determinant](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/operations/matrix_ops/matrix_determinant.md)
+
+**Vector Norms**
+
+1. [l1](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_norms/l1.md)
+
+2. [l2](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_norms/l2.md)
+
+3. [l-infinity](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/vector_norms/linf.md)
+
+**Matrix Norms**
+
+1. [l1](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/matrix_norms/l1.md)
+
+2. [Frobenius/l2](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/matrix_norms/frobenius.md)
+
+3. [l-infinity](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/matrix_norms/linf.md)
