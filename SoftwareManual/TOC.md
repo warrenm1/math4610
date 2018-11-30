@@ -79,3 +79,21 @@
 2. [Frobenius/l2](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/matrix_norms/frobenius.md)
 
 3. [l-infinity](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/norms/matrix_norms/linf.md)
+
+**Direct Linear Solutions**
+
+1. [GE for nXn matrix](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/gaussElim_square.md)
+
+2. [Forward Substitution](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/forwardSubstitution.md)
+
+3. [Back Substitution](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/backSubstitution.md)
+
+4. [GE for nXm matrix](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/gaussElim_rect.md)
+
+5. [GE using FS to solve](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/gaussElim_solve.md) ...not finished yet...
+
+6. [LU Factorization to save factor](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/lu_factor_save.md)
+
+7. [LU Factorization & FS + BS](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/lu_factor_solve.md)
+
+8. Cholesky

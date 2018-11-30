@@ -70,33 +70,33 @@
 
 9. [Problem Nine](link): Determining an Orthogonal Basis from a General Basis in R^2 ...not finished yet...
 
-10. [Problem Ten](link): Online Serch - Kronecker Product ...not finished yet...
+10. [Problem Ten](link): Online Search - Kronecker Product ...not finished yet...
 
 
 
-**[Homework Four](link)**
+**[Homework Four](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework4)**
 
-1. [Problem One](link): description
+1. [Problem One](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/gaussElim_square.md): GE performed on an nXn matrix
 
-2. [Problem Two](link): description
+2. [Problem Two](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/gaussElim_rect.md): GE performed on an nXm matrix
 
-3. [Problem Three](link): description
+3. [Problem Three](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/forwardSubstitution.md): Forward Substitution on an nXn Lower Triangular Matrix
 
-4. [Problem Four](link): description
+4. [Problem Four](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/backSubstitution.md): Back Substitution on an nXn Upper Triangular Matrix
 
-5. [Problem Five](link): description
+5. [Problem Five](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/gaussElim_solve.md): GE + BS to solve a large matrix ...not finished yet...
 
-6. [Problem Six](link): description
+6. [Problem Six](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/lu_factor_save.md): Use GE to find LU and save the factors used in the Elimination
 
-7. [Problem Seven](link): description
+7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/lu_factor_solve.md): Use LU Factorization and FS + BS to solve a system of linear equations
 
-8. [Problem Eight](link): description
+8. [Problem Eight](link): Implement Cholesky Factorization for Symmetric matrix ...not finished yet...
 
-9. [Problem Nine](link): description
+9. [Problem Nine](link): Download a large matrix, test Cholesky factorization, analyze and explain results. ...not finished yet...
 
-10. [Problem Ten](link): description
+10. [Problem Ten](link): Solve system of linear equations using Cholesky Factorization and FS + BS ...not finished yet...
 
-11. [Problem Eleven](link): description
+11. [Problem Eleven](link): Online Search - test problems for Linear solvers ...not finished yet...
 
 
 
