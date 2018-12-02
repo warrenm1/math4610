@@ -90,11 +90,11 @@
 
 7. [Problem Seven](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/lu_factor_solve.md): Use LU Factorization and FS + BS to solve a system of linear equations
 
-8. [Problem Eight](link): Implement Cholesky Factorization for Symmetric matrix ...not finished yet...
+8. [Problem Eight](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_iteration/Cholesky.md): Implement Cholesky Factorization for Symmetric matrix
 
 9. [Problem Nine](link): Download a large matrix, test Cholesky factorization, analyze and explain results. ...not finished yet...
 
-10. [Problem Ten](link): Solve system of linear equations using Cholesky Factorization and FS + BS ...not finished yet...
+10. [Problem Ten](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_iteration/Cholesky_solve.md): Solve system of linear equations using Cholesky Factorization and FS + BS
 
 11. [Problem Eleven](link): Online Search - test problems for Linear solvers ...not finished yet...
 

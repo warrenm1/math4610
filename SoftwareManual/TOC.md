@@ -96,4 +96,20 @@
 
 7. [LU Factorization & FS + BS](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_direct/lu_factor_solve.md)
 
-8. Cholesky
+8. [Cholesky](https://github.com/warrenm1/math4610/blob/master/SoftwareManual/linear_solutions_iteration/Cholesky_solve.md)
+
+**Iterative Linear Solutions**
+
+1. [Jacobi Method]()
+
+2. [Gauss-Seidel]()
+
+3. [Steepest Descent]()
+
+4. [Conjugate Gradient]()
+
+**Largest Eigenvalues**
+
+1. [Power Method]()
+
+2. [Inverse Power Method]()
