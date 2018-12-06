@@ -64,9 +64,9 @@
 
 6. [Problem Siz](https://github.com/warrenm1/math4610/tree/master/SoftwareManual/operations/matrix_ops): Additional Matrix Operations
 
-7. [Problem Seven](link): Using Parallel/concurrent computing to perform Matrix Operations ...not finished yet...
+7. Problem Seven: Using Parallel/concurrent computing to perform Matrix Operations on [Matrix * Vector](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework3/OpenMP/matVect.cpp) and [Matrix * Matrix](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework3/OpenMP/matMat.cpp)
 
-8. [Problem Eight](link): More Vector Operations ...not finished yet...
+8. Problem Eight: More Vector Operations for [Dot Product](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework3/OpenMP/vectDot.cpp) and [Cross Product](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework3/OpenMP/vectCross.cpp)
 
 9. [Problem Nine](link): Determining an Orthogonal Basis from a General Basis in R^2 ...not finished yet...
 
