@@ -100,44 +100,44 @@
 
 
 
-**[Homework Five]()**
+**[Homework Five](https://github.com/warrenm1/math4610/tree/master/homeworks/Homework5)**
 
-1. [Problem One](link): description
+1. [Problem One](link): l_1 and l_inf induced matrix norms ...not finished yet...
 
-2. [Problem Two](link): description
+2. [Problem Two](https://github.com/warrenm1/math4610/blob/master/homeworks/Homework5/matrixGenerator.py): Matrix Generator
 
-3. [Problem Three](): description
+3. [Problem Three](): Jacobi Iteration ...not finished yet...
 
-4. [Problem Four](): description
+4. [Problem Four](): Gauss-Seidel Iteration ...not finished yet...
 
-5. [Problem Five](): description
+5. [Problem Five](): Steepest Descent/Gradient Method ...not finished yet...
 
-6. [Problem Six](): description
+6. [Problem Six](): Conjugate Gradient Method ...not finished yet...
 
-7. [Problem Seven](): description
+7. [Problem Seven](): Jacobi Iteration via OpenMP ...not finished yet...
 
-8. [Problem Eight](): description
+8. [Problem Eight](): Gauss-Seidel Iteration via OpenMP ...not finished yet...
 
-9. [Problem Nine](): description
+9. [Problem Nine](): Conjugate Gradient via OpenMP ...not finished yet...
 
-10. [Problem Ten](): description
+10. [Problem Ten](): Gather data from these methods for different sizes ...not finished yet...
 
 
 
 **[Homework Six]()**
 
-1. [Problem One](): description
+1. [Problem One](): Power Method ...not finished yet...
 
-2. [Problem Two](): description
+2. [Problem Two](): Inverse Power Method ...not finished yet...
 
-3. [Problem Three](): description
+3. [Problem Three](): Estimate the 2-condition number of a matrix ...not finished yet...
 
-4. [Problem Four](): description
+4. [Problem Four](): Power Method via OpenMP ...not finished yet...
 
-5. [Problem Five](): description
+5. [Problem Five](): Inverse Power Method via OpenMP ...not finished yet...
 
-6. [Problem Six](): description
+6. [Problem Six](): 2-condition number via OpenMP ...not finished yet...
 
-7. [Problem Seven](): description
+7. [Problem Seven](): Compate 2-condition number with and without OpenMP ...not finished yet...
 
-8. [Problem Eight](): description
+8. [Problem Eight](): Gather data to test 2-condition number code with and without OpenMP ...not finished yet...
